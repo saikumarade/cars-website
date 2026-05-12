@@ -1,0 +1,31 @@
+:root {
+    --primary: #ff4d4d;
+    --dark-bg: #0a0a0a;
+    --card-bg: #161616;
+    --text-main: #ffffff;
+    --text-dim: #b3b3b3;
+    --transition: all 0.3s ease;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--dark-bg);
+    color: var(--text-main);
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+a { text-decoration: none; color: inherit; }
+ul { list-style: none; }
